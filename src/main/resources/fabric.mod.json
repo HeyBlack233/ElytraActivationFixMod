@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "elytraactivationfix",
+  "version": "${version}",
+  "name": "ElytraActivationFix",
+  "description": "fix some elytra activating problems",
+  "authors": [
+    "HeyBlack"
+  ],
+  "contact": {
+    "sources": "https://github.com/HeyBlack233"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "ElytraActivationFix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.16"
+  }
+}
